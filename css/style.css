@@ -1,0 +1,90 @@
+/* fonts link */
+@import url("https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Inconsolata:wght@700&family=Josefin+Sans&family=Montserrat&family=Space+Mono:wght@400;700&family=Work+Sans:wght@400;500;600;700;800&display=swap");
+
+/* common style */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  color: #534c64;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.gradient {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* header section styles starts here */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 38px 0;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.07);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.logo-text {
+  margin-left: 20px;
+  color: #0b0223;
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+.logo-text::first-letter {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+ul > li {
+  list-style: none;
+  margin-left: 32px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #3c354f;
+  font-weight: 500;
+}
+
+.follow {
+  color: #3c354f;
+  padding: 16px 24px;
+  border-radius: 8px;
+  background-color: rgba(11, 2, 35, 0.1);
+}
+
+.youtube-icon {
+  margin: 0 16px 0 24px;
+}

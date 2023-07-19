@@ -1,0 +1,30 @@
+@media screen and (max-width: 576px) {
+  nav {
+    flex-direction: column;
+  }
+
+  ul {
+    flex-direction: column;
+  }
+
+  ul > li {
+    margin-left: 0;
+    margin-top: 32px;
+  }
+}
+
+/* resposive for medium device */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  nav {
+    flex-direction: column;
+  }
+
+  ul {
+    flex-direction: column;
+  }
+
+  ul > li {
+    margin-left: 0;
+    margin-top: 32px;
+  }
+}
