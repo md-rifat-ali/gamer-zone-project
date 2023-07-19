@@ -289,6 +289,36 @@ main {
   left: -145px;
 }
 
+/* play games section style here */
+.play-games {
+  margin-top: 120px;
+  padding-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+}
+
+.play-games-img {
+  position: relative;
+}
+
+.tom-cartoon {
+  position: absolute;
+  right: -135px;
+  bottom: -123px;
+}
+
+.play-games-content {
+  max-width: 475px;
+  margin-left: 113px;
+}
+
+.play-games-title {
+  padding-right: 40px;
+  margin-bottom: 24px;
+}
+
 /* all game section style starts here */
 
 .all-game {

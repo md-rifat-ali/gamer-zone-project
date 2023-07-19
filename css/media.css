@@ -60,7 +60,7 @@
   }
 
   .about-img {
-    padding: 0 20px 0px 100px;
+    padding: 0 20px 0px 70px;
   }
 
   .talking-cartoon {
@@ -68,6 +68,31 @@
     position: absolute;
     bottom: -50px;
     left: -105px;
+  }
+
+  /* play games section style here */
+  .play-games {
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+
+  .play-games-img {
+    padding: 0 70px 0 20px;
+  }
+
+  .tom-cartoon {
+    right: 15px;
+    bottom: -60px;
+    padding: 0px 0px 0 245px;
+  }
+
+  .play-games-content {
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  .play-games-title {
+    padding-right: 00px;
   }
 
   /* all game section style starts here */
@@ -189,8 +214,33 @@
   .talking-cartoon {
     padding: 0 245px 0 120px;
     position: absolute;
-    bottom: -50px;
+    bottom: -110px;
     left: -105px;
+  }
+
+  /* play games section style here */
+  .play-games {
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+
+  .play-games-img {
+    padding: 0 70px 0 20px;
+  }
+
+  .tom-cartoon {
+    right: 15px;
+    bottom: -110px;
+    padding: 0px 0px 0 245px;
+  }
+
+  .play-games-content {
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  .play-games-title {
+    padding-right: 00px;
   }
 
   /* all game section style starts here */
