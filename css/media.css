@@ -18,6 +18,21 @@
     flex-direction: column-reverse;
     padding: 10px;
   }
+
+  /* online game section style here */
+  .online-games-content {
+    padding: 0 50px;
+  }
+
+  .online-games-collection {
+    flex-direction: column;
+    margin: 48px;
+  }
+
+  .caption {
+    margin-top: 5px;
+    padding-right: 30px;
+  }
 }
 
 /* responsive for medium device */
@@ -40,5 +55,24 @@
   .banner-container {
     flex-direction: column-reverse;
     padding: 20px;
+  }
+
+  /* online game section style here */
+
+  .online-games-content {
+    padding: 0 50px;
+  }
+  .online-games-collection {
+    flex-direction: column;
+    margin: 48px;
+  }
+
+  .single-game {
+    text-align: center;
+  }
+
+  .caption {
+    padding: 0 50px;
+    margin-top: 5px;
   }
 }
