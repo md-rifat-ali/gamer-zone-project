@@ -33,6 +33,30 @@
     margin-top: 5px;
     padding-right: 30px;
   }
+
+  /* about section style starts here */
+  .about {
+    margin-top: 45;
+    flex-direction: column;
+    gap: 45px;
+  }
+
+  .about-content {
+    text-align: center;
+    margin-right: 0px;
+    max-width: 345px;
+  }
+
+  .about-img {
+    padding: 0 20px 0px 100px;
+  }
+
+  .talking-cartoon {
+    padding: 0 245px 0 120px;
+    position: absolute;
+    bottom: -50px;
+    left: -105px;
+  }
 }
 
 /* responsive for medium device */
@@ -74,5 +98,29 @@
   .caption {
     padding: 0 50px;
     margin-top: 5px;
+  }
+
+  /* about section style starts here */
+  .about {
+    margin-top: 45;
+    flex-direction: column;
+    gap: 45px;
+  }
+
+  .about-content {
+    text-align: center;
+    margin-right: 0px;
+    max-width: 345px;
+  }
+
+  .about-img {
+    padding: 0 20px 0px 100px;
+  }
+
+  .talking-cartoon {
+    padding: 0 245px 0 120px;
+    position: absolute;
+    bottom: -50px;
+    left: -105px;
   }
 }

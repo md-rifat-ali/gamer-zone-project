@@ -233,3 +233,37 @@ main {
   margin-top: 24px;
   padding-right: 50px;
 }
+
+/* about section style starts here */
+.about {
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 175px;
+}
+
+.about-content {
+  text-align: end;
+  margin-right: 120px;
+  max-width: 345px;
+}
+
+.about-description {
+  margin-top: 24px;
+}
+
+.anniversary-img img,
+.talking-cartoon img {
+  width: 100%;
+}
+
+.about-img {
+  position: relative;
+}
+
+.talking-cartoon {
+  position: absolute;
+  bottom: -75px;
+  left: -145px;
+}
