@@ -28,13 +28,25 @@ body {
   color: transparent;
 }
 
+.btn-primary {
+  padding: 21px 40px;
+  border-radius: 48px;
+  color: #fff;
+  border: 2px solid #fff;
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
 /* header section styles starts here */
 
 nav {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  padding: 38px 0;
+  justify-content: space-between;
+  padding: 38px 240px;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.07);
 }
 
@@ -87,4 +99,60 @@ ul li a {
 
 .youtube-icon {
   margin: 0 16px 0 24px;
+}
+
+/* banner style starts here */
+.banner-container {
+  padding: 20px 245px 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 68px;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #0b0223;
+}
+
+.banner-title {
+  font-size: 6rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: normal;
+}
+
+.feature-list {
+  flex-direction: column;
+  align-items: start;
+  margin: 24px 0 40px;
+}
+
+.feature-list li {
+  margin-left: 0;
+  margin-top: 17px;
+}
+
+.feature-list li i {
+  margin-right: 12px;
+}
+
+.btn-primary:hover {
+  border: 2px solid #ff42a5;
+  background: #fff;
+  color: #0b0223;
+}
+
+.rogue-btn {
+  margin-left: 24px;
+  background: #4ec5f7;
+}
+
+.rogue-btn:hover {
+  border: 2px solid #4ec5f7;
+}
+
+.banner-img img {
+  width: 100%;
 }
