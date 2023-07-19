@@ -160,6 +160,40 @@ main {
   margin: 0 auto;
 }
 
+/* we are gamer section style starts here */
+.we-are-gamer {
+  margin-top: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 52px;
+}
+
+.gamer-content {
+  max-width: 520px;
+  text-align: end;
+}
+
+.description {
+  margin: 24px 0 32px;
+}
+
+.gamer-caption {
+  margin-top: 24px;
+}
+
+.gamer-title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 45px;
+}
+
+.gamer-description {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 45px;
+}
+
 /* online game style starts here */
 
 .online-games {

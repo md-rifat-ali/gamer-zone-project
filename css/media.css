@@ -19,6 +19,18 @@
     padding: 10px;
   }
 
+  /* we are gamer section style here */
+  .we-are-gamer {
+    margin-top: 55px;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .gamer-content {
+    padding: 0 10px;
+    text-align: center;
+  }
+
   /* online game section style here */
   .online-games-content {
     padding: 0 50px;
@@ -125,6 +137,17 @@
   .banner-container {
     flex-direction: column-reverse;
     padding: 20px;
+  }
+
+  /* we are gamer section style here */
+  .we-are-gamer {
+    margin-top: 55px;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .gamer-content {
+    text-align: center;
   }
 
   /* online game section style here */
