@@ -57,6 +57,29 @@
     bottom: -50px;
     left: -105px;
   }
+
+  /* all game section style starts here */
+
+  .all-game {
+    padding-top: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+
+  .single-game-content {
+    padding: 5px;
+  }
+
+  .game-title {
+    margin-left: 5px;
+    font-size: 14px;
+    line-height: normal;
+  }
+
+  .single-game-content img {
+    width: 40px;
+  }
 }
 
 /* responsive for medium device */
@@ -122,5 +145,24 @@
     position: absolute;
     bottom: -50px;
     left: -105px;
+  }
+
+  /* all game section style starts here */
+
+  .all-game {
+    padding: 0 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+
+  .game-title {
+    margin-left: 5px;
+    font-size: 14px;
+    line-height: normal;
+  }
+
+  .single-game-content img {
+    width: 40px;
   }
 }
