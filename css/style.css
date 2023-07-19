@@ -15,6 +15,10 @@ body {
   line-height: 30px;
 }
 
+img {
+  width: 100%;
+}
+
 .title {
   font-size: 3rem;
   font-weight: 700;
@@ -55,10 +59,6 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.logo img {
-  width: 100%;
 }
 
 .logo-text {
@@ -154,10 +154,6 @@ ul li a {
   border: 2px solid #4ec5f7;
 }
 
-.banner-img img {
-  width: 100%;
-}
-
 /* main part styles here */
 main {
   max-width: 1440px;
@@ -187,10 +183,6 @@ main {
   display: inline-block;
   width: 342px;
   height: 400px;
-}
-
-.single-item img {
-  width: 100%;
 }
 
 .img-overlay {
@@ -253,11 +245,6 @@ main {
   margin-top: 24px;
 }
 
-.anniversary-img img,
-.talking-cartoon img {
-  width: 100%;
-}
-
 .about-img {
   position: relative;
 }
@@ -307,4 +294,52 @@ main {
   color: #0b0223;
   font-size: 20px;
   font-weight: 600;
+}
+
+/* footer section starts here */
+footer {
+  margin-top: 120px;
+  padding: 120px 0 130px;
+  text-align: center;
+  background: #0b0223;
+}
+
+.footer-logo img {
+  width: fit-content;
+}
+
+.footer-text {
+  color: #fff;
+}
+
+.link ul,
+.icon ul,
+.footer-link ul {
+  justify-content: center;
+}
+
+.link ul {
+  margin: 56px 0;
+  gap: 60px;
+}
+
+.link ul li a {
+  color: #fff;
+}
+
+.icon ul {
+  gap: 40px;
+  font-size: 40px;
+}
+
+.footer-link ul {
+  margin: 64px 0 18px;
+  gap: 60px;
+}
+
+.copyright,
+.footer-link ul li a {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
 }
